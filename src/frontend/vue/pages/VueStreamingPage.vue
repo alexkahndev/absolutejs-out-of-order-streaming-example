@@ -71,7 +71,7 @@ const createFallback = (
 
     <section class="grid">
       <StreamSlot
-        id="vue-slot-first"
+        id="vue-first"
         :fallback-html="
           createFallback('1st', '5th', 'Vue Slot 1', 'StreamSlot')
         "
@@ -81,7 +81,7 @@ const createFallback = (
         :timeout-ms="5000"
       />
       <StreamSlot
-        id="vue-slot-second"
+        id="vue-second"
         :fallback-html="
           createFallback('2nd', '2nd', 'Vue Slot 2', 'StreamSlot')
         "
@@ -91,7 +91,7 @@ const createFallback = (
         :timeout-ms="5000"
       />
       <StreamSlot
-        id="vue-slot-third"
+        id="vue-third"
         :fallback-html="
           createFallback('3rd', '6th', 'Vue Slot 3', 'StreamSlot')
         "
@@ -101,7 +101,7 @@ const createFallback = (
         :timeout-ms="5000"
       />
       <StreamSlot
-        id="vue-slot-fourth"
+        id="vue-fourth"
         :fallback-html="
           createFallback('4th', '1st', 'Vue Slot 4', 'StreamSlot')
         "
@@ -111,7 +111,7 @@ const createFallback = (
         :timeout-ms="5000"
       />
       <StreamSlot
-        id="vue-slot-fifth"
+        id="vue-fifth"
         :fallback-html="
           createFallback('5th', '4th', 'Vue Slot 5', 'StreamSlot')
         "
@@ -121,7 +121,7 @@ const createFallback = (
         :timeout-ms="5000"
       />
       <StreamSlot
-        id="vue-slot-sixth"
+        id="vue-sixth"
         :fallback-html="
           createFallback('6th', '3rd', 'Vue Slot 6', 'StreamSlot')
         "

@@ -95,7 +95,7 @@ export const ReactStreamingPage = ({ cssPath }: ReactStreamingPageProps) => (
               "React Slot 1",
               "StreamSlot",
             )}
-            id="react-slot-first"
+            id="react-first"
             resolve={() =>
               renderSlot(
                 "React Slot 1",
@@ -114,7 +114,7 @@ export const ReactStreamingPage = ({ cssPath }: ReactStreamingPageProps) => (
               "React Slot 2",
               "StreamSlot",
             )}
-            id="react-slot-second"
+            id="react-second"
             resolve={() =>
               renderSlot(
                 "React Slot 2",
@@ -133,7 +133,7 @@ export const ReactStreamingPage = ({ cssPath }: ReactStreamingPageProps) => (
               "React Slot 3",
               "StreamSlot",
             )}
-            id="react-slot-third"
+            id="react-third"
             resolve={() =>
               renderSlot(
                 "React Slot 3",
@@ -152,7 +152,7 @@ export const ReactStreamingPage = ({ cssPath }: ReactStreamingPageProps) => (
               "React Slot 4",
               "StreamSlot",
             )}
-            id="react-slot-fourth"
+            id="react-fourth"
             resolve={() =>
               renderSlot(
                 "React Slot 4",
@@ -171,7 +171,7 @@ export const ReactStreamingPage = ({ cssPath }: ReactStreamingPageProps) => (
               "React Slot 5",
               "StreamSlot",
             )}
-            id="react-slot-fifth"
+            id="react-fifth"
             resolve={() =>
               renderSlot(
                 "React Slot 5",
@@ -190,7 +190,7 @@ export const ReactStreamingPage = ({ cssPath }: ReactStreamingPageProps) => (
               "React Slot 6",
               "StreamSlot",
             )}
-            id="react-slot-sixth"
+            id="react-sixth"
             resolve={() =>
               renderSlot(
                 "React Slot 6",

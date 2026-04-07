@@ -57,7 +57,7 @@ import { StreamSlotComponent } from "@absolutejs/absolute/angular";
 
       <section class="grid">
         <abs-stream-slot
-          id="angular-slot-first"
+          id="angular-first"
           [fallbackHtml]="
             createFallback(
               '1st',
@@ -70,7 +70,7 @@ import { StreamSlotComponent } from "@absolutejs/absolute/angular";
           [timeoutMs]="5000"
         ></abs-stream-slot>
         <abs-stream-slot
-          id="angular-slot-second"
+          id="angular-second"
           [fallbackHtml]="
             createFallback(
               '2nd',
@@ -83,7 +83,7 @@ import { StreamSlotComponent } from "@absolutejs/absolute/angular";
           [timeoutMs]="5000"
         ></abs-stream-slot>
         <abs-stream-slot
-          id="angular-slot-third"
+          id="angular-third"
           [fallbackHtml]="
             createFallback(
               '3rd',
@@ -96,7 +96,7 @@ import { StreamSlotComponent } from "@absolutejs/absolute/angular";
           [timeoutMs]="5000"
         ></abs-stream-slot>
         <abs-stream-slot
-          id="angular-slot-fourth"
+          id="angular-fourth"
           [fallbackHtml]="
             createFallback(
               '4th',
@@ -109,7 +109,7 @@ import { StreamSlotComponent } from "@absolutejs/absolute/angular";
           [timeoutMs]="5000"
         ></abs-stream-slot>
         <abs-stream-slot
-          id="angular-slot-fifth"
+          id="angular-fifth"
           [fallbackHtml]="
             createFallback(
               '5th',
@@ -122,7 +122,7 @@ import { StreamSlotComponent } from "@absolutejs/absolute/angular";
           [timeoutMs]="5000"
         ></abs-stream-slot>
         <abs-stream-slot
-          id="angular-slot-sixth"
+          id="angular-sixth"
           [fallbackHtml]="
             createFallback(
               '6th',

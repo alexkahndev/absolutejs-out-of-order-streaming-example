@@ -71,42 +71,42 @@
 
   <section class="grid">
     <StreamSlot
-      id="svelte-slot-first"
+      id="svelte-first"
       fallbackHtml={createFallback("1st", "5th", "Svelte Slot 1", "StreamSlot")}
       resolve={() =>
         renderSlot("Svelte Slot 1", 3000, "1st", "5th", "StreamSlot")}
       timeoutMs={5000}
     />
     <StreamSlot
-      id="svelte-slot-second"
+      id="svelte-second"
       fallbackHtml={createFallback("2nd", "2nd", "Svelte Slot 2", "StreamSlot")}
       resolve={() =>
         renderSlot("Svelte Slot 2", 1000, "2nd", "2nd", "StreamSlot")}
       timeoutMs={5000}
     />
     <StreamSlot
-      id="svelte-slot-third"
+      id="svelte-third"
       fallbackHtml={createFallback("3rd", "6th", "Svelte Slot 3", "StreamSlot")}
       resolve={() =>
         renderSlot("Svelte Slot 3", 3500, "3rd", "6th", "StreamSlot")}
       timeoutMs={5000}
     />
     <StreamSlot
-      id="svelte-slot-fourth"
+      id="svelte-fourth"
       fallbackHtml={createFallback("4th", "1st", "Svelte Slot 4", "StreamSlot")}
       resolve={() =>
         renderSlot("Svelte Slot 4", 500, "4th", "1st", "StreamSlot")}
       timeoutMs={5000}
     />
     <StreamSlot
-      id="svelte-slot-fifth"
+      id="svelte-fifth"
       fallbackHtml={createFallback("5th", "4th", "Svelte Slot 5", "StreamSlot")}
       resolve={() =>
         renderSlot("Svelte Slot 5", 2200, "5th", "4th", "StreamSlot")}
       timeoutMs={5000}
     />
     <StreamSlot
-      id="svelte-slot-sixth"
+      id="svelte-sixth"
       fallbackHtml={createFallback("6th", "3rd", "Svelte Slot 6", "StreamSlot")}
       resolve={() =>
         renderSlot("Svelte Slot 6", 1500, "6th", "3rd", "StreamSlot")}

@@ -5,7 +5,7 @@
     "": {
       "name": "absolutejs-out-of-order-streaming-example",
       "dependencies": {
-        "@absolutejs/absolute": "0.19.0-beta.450",
+        "@absolutejs/absolute": "0.19.0-beta.451",
         "@angular/common": "^21.0.0",
         "@angular/compiler": "^21.0.0",
         "@angular/compiler-cli": "^21.0.0",
@@ -44,7 +44,7 @@
     },
   },
   "packages": {
-    "@absolutejs/absolute": ["@absolutejs/absolute@0.19.0-beta.450", "", { "dependencies": { "@angular/compiler": "^21.0.0", "zustand": "^5.0.12" }, "optionalDependencies": { "@absolutejs/native-darwin-arm64": "0.19.0-beta.355", "@absolutejs/native-darwin-x64": "0.19.0-beta.355", "@absolutejs/native-linux-arm64": "0.19.0-beta.355", "@absolutejs/native-linux-x64": "0.19.0-beta.355", "@absolutejs/native-windows-arm64": "0.19.0-beta.355", "@absolutejs/native-windows-x64": "0.19.0-beta.355" }, "peerDependencies": { "@angular/common": "^21.0.0", "@angular/compiler-cli": "^21.0.0", "@angular/core": "^21.0.0", "@angular/platform-browser": "^21.0.0", "@angular/platform-server": "^21.0.0", "@angular/ssr": "^21.0.0", "elysia": "^1.4.0", "react": "^19.2.0", "react-dom": "^19.2.0", "react-refresh": "^0.18.0", "sharp": ">=0.33.0", "svelte": "^5.35.2", "vue": "^3.5.27", "zone.js": "^0.15.0" }, "optionalPeers": ["@angular/common", "@angular/compiler-cli", "@angular/core", "@angular/platform-browser", "@angular/platform-server", "@angular/ssr", "react", "react-dom", "react-refresh", "sharp", "svelte", "vue", "zone.js"], "bin": { "absolute": "dist/cli/index.js" } }, "sha512-AQEqIqkyuB1GsyiL8NElx1KRHasBT2aqoibNO+QTMWFzBK5yke6W0OZ/NwTtI+fgPWYnAn4+ydh5zG28jxf1iQ=="],
+    "@absolutejs/absolute": ["@absolutejs/absolute@0.19.0-beta.451", "", { "dependencies": { "@angular/compiler": "^21.0.0", "zustand": "^5.0.12" }, "optionalDependencies": { "@absolutejs/native-darwin-arm64": "0.19.0-beta.355", "@absolutejs/native-darwin-x64": "0.19.0-beta.355", "@absolutejs/native-linux-arm64": "0.19.0-beta.355", "@absolutejs/native-linux-x64": "0.19.0-beta.355", "@absolutejs/native-windows-arm64": "0.19.0-beta.355", "@absolutejs/native-windows-x64": "0.19.0-beta.355" }, "peerDependencies": { "@angular/common": "^21.0.0", "@angular/compiler-cli": "^21.0.0", "@angular/core": "^21.0.0", "@angular/platform-browser": "^21.0.0", "@angular/platform-server": "^21.0.0", "@angular/ssr": "^21.0.0", "elysia": "^1.4.0", "react": "^19.2.0", "react-dom": "^19.2.0", "react-refresh": "^0.18.0", "sharp": ">=0.33.0", "svelte": "^5.35.2", "vue": "^3.5.27", "zone.js": "^0.15.0" }, "optionalPeers": ["@angular/common", "@angular/compiler-cli", "@angular/core", "@angular/platform-browser", "@angular/platform-server", "@angular/ssr", "react", "react-dom", "react-refresh", "sharp", "svelte", "vue", "zone.js"], "bin": { "absolute": "dist/cli/index.js" } }, "sha512-XxchtS6YZhjW5tgyZfVZLUqikfQRkUDscw52YakszodH9d7P7J4POjFuygqcN85wXsoF47v0o52v7WXB+DdtDw=="],
 
     "@angular/common": ["@angular/common@21.2.7", "", { "dependencies": { "tslib": "^2.3.0" }, "peerDependencies": { "@angular/core": "21.2.7", "rxjs": "^6.5.3 || ^7.4.0" } }, "sha512-YFdnU5z8JloJjLYa52OyCOULQhqEE/ym7vKfABySWDsiVXZr9FNmKMeZi/lUcg7ZO22UbBihqW9a9D6VSHOo+g=="],
 
