@@ -1,6 +1,6 @@
 import { CommonModule } from "@angular/common";
 import { Component } from "@angular/core";
-import { StreamSlotComponent } from "@absolutejs/absolute/angular";
+import { StreamSlotComponent } from "@absolutejs/absolute/angular/components";
 
 @Component({
   imports: [CommonModule, StreamSlotComponent],

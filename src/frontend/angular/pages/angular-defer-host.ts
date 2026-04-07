@@ -15,7 +15,11 @@ import {
   template: `
     <header>
       <a href="/" class="logo">
-        <img src="/assets/png/absolutejs-temp.png" height="24" alt="AbsoluteJS" />
+        <img
+          src="/assets/png/absolutejs-temp.png"
+          height="24"
+          alt="AbsoluteJS"
+        />
         AbsoluteJS
       </a>
       <div class="nav-stack">
@@ -46,13 +50,15 @@ import {
       </div>
 
       <p class="section-desc">
-        This page uses real <code>@defer</code> blocks. AbsoluteJS lowers them into the out-of-order slot transport, so the authoring model stays Angular-native.
+        This page uses real <code>&#64;defer</code> blocks. AbsoluteJS lowers
+        them into the out-of-order slot transport, so the authoring model stays
+        Angular-native.
       </p>
 
       <h2 class="section-title">Framework-Shaped Slots</h2>
       <p class="section-desc">
-        Six slots declared in order. Watch them resolve out of sequence &mdash; slot 4
-        arrives first, then 2, 6, 5, 1, and finally 3.
+        Six slots declared in order. Watch them resolve out of sequence &mdash;
+        slot 4 arrives first, then 2, 6, 5, 1, and finally 3.
       </p>
 
       <section class="grid">
@@ -66,10 +72,15 @@ import {
               <span>Declared 1st</span>
               <span>Resolved 5th</span>
               <span>3000ms</span>
-              <span>@defer</span>
+              <span>&#64;defer</span>
             </div>
-            <p class="stream-desc">Authored as Angular markup and rendered to streamed HTML on the server.</p>
-            <p class="stream-timestamp"><strong>Resolved at</strong> {{ timestamp() }}</p>
+            <p class="stream-desc">
+              Authored as Angular markup and rendered to streamed HTML on the
+              server.
+            </p>
+            <p class="stream-timestamp">
+              <strong>Resolved at</strong> {{ timestamp() }}
+            </p>
           </article>
         } @placeholder {
           <article class="stream-card stream-card-angular stream-card-fallback">
@@ -81,9 +92,11 @@ import {
               <span>Declared 1st</span>
               <span>Expected 5th</span>
               <span>Fallback</span>
-              <span>@defer</span>
+              <span>&#64;defer</span>
             </div>
-            <p class="stream-desc">Waiting for server to stream resolved markup into this slot.</p>
+            <p class="stream-desc">
+              Waiting for server to stream resolved markup into this slot.
+            </p>
             <div class="stream-timestamp-skeleton"></div>
           </article>
         }
@@ -98,10 +111,15 @@ import {
               <span>Declared 2nd</span>
               <span>Resolved 2nd</span>
               <span>1000ms</span>
-              <span>@defer</span>
+              <span>&#64;defer</span>
             </div>
-            <p class="stream-desc">Authored as Angular markup and rendered to streamed HTML on the server.</p>
-            <p class="stream-timestamp"><strong>Resolved at</strong> {{ timestamp() }}</p>
+            <p class="stream-desc">
+              Authored as Angular markup and rendered to streamed HTML on the
+              server.
+            </p>
+            <p class="stream-timestamp">
+              <strong>Resolved at</strong> {{ timestamp() }}
+            </p>
           </article>
         } @placeholder {
           <article class="stream-card stream-card-angular stream-card-fallback">
@@ -113,9 +131,11 @@ import {
               <span>Declared 2nd</span>
               <span>Expected 2nd</span>
               <span>Fallback</span>
-              <span>@defer</span>
+              <span>&#64;defer</span>
             </div>
-            <p class="stream-desc">Waiting for server to stream resolved markup into this slot.</p>
+            <p class="stream-desc">
+              Waiting for server to stream resolved markup into this slot.
+            </p>
             <div class="stream-timestamp-skeleton"></div>
           </article>
         }
@@ -130,10 +150,15 @@ import {
               <span>Declared 3rd</span>
               <span>Resolved 6th</span>
               <span>3500ms</span>
-              <span>@defer</span>
+              <span>&#64;defer</span>
             </div>
-            <p class="stream-desc">Authored as Angular markup and rendered to streamed HTML on the server.</p>
-            <p class="stream-timestamp"><strong>Resolved at</strong> {{ timestamp() }}</p>
+            <p class="stream-desc">
+              Authored as Angular markup and rendered to streamed HTML on the
+              server.
+            </p>
+            <p class="stream-timestamp">
+              <strong>Resolved at</strong> {{ timestamp() }}
+            </p>
           </article>
         } @placeholder {
           <article class="stream-card stream-card-angular stream-card-fallback">
@@ -145,9 +170,11 @@ import {
               <span>Declared 3rd</span>
               <span>Expected 6th</span>
               <span>Fallback</span>
-              <span>@defer</span>
+              <span>&#64;defer</span>
             </div>
-            <p class="stream-desc">Waiting for server to stream resolved markup into this slot.</p>
+            <p class="stream-desc">
+              Waiting for server to stream resolved markup into this slot.
+            </p>
             <div class="stream-timestamp-skeleton"></div>
           </article>
         }
@@ -162,10 +189,15 @@ import {
               <span>Declared 4th</span>
               <span>Resolved 1st</span>
               <span>500ms</span>
-              <span>@defer</span>
+              <span>&#64;defer</span>
             </div>
-            <p class="stream-desc">Authored as Angular markup and rendered to streamed HTML on the server.</p>
-            <p class="stream-timestamp"><strong>Resolved at</strong> {{ timestamp() }}</p>
+            <p class="stream-desc">
+              Authored as Angular markup and rendered to streamed HTML on the
+              server.
+            </p>
+            <p class="stream-timestamp">
+              <strong>Resolved at</strong> {{ timestamp() }}
+            </p>
           </article>
         } @placeholder {
           <article class="stream-card stream-card-angular stream-card-fallback">
@@ -177,9 +209,11 @@ import {
               <span>Declared 4th</span>
               <span>Expected 1st</span>
               <span>Fallback</span>
-              <span>@defer</span>
+              <span>&#64;defer</span>
             </div>
-            <p class="stream-desc">Waiting for server to stream resolved markup into this slot.</p>
+            <p class="stream-desc">
+              Waiting for server to stream resolved markup into this slot.
+            </p>
             <div class="stream-timestamp-skeleton"></div>
           </article>
         }
@@ -194,10 +228,15 @@ import {
               <span>Declared 5th</span>
               <span>Resolved 4th</span>
               <span>2200ms</span>
-              <span>@defer</span>
+              <span>&#64;defer</span>
             </div>
-            <p class="stream-desc">Authored as Angular markup and rendered to streamed HTML on the server.</p>
-            <p class="stream-timestamp"><strong>Resolved at</strong> {{ timestamp() }}</p>
+            <p class="stream-desc">
+              Authored as Angular markup and rendered to streamed HTML on the
+              server.
+            </p>
+            <p class="stream-timestamp">
+              <strong>Resolved at</strong> {{ timestamp() }}
+            </p>
           </article>
         } @placeholder {
           <article class="stream-card stream-card-angular stream-card-fallback">
@@ -209,9 +248,11 @@ import {
               <span>Declared 5th</span>
               <span>Expected 4th</span>
               <span>Fallback</span>
-              <span>@defer</span>
+              <span>&#64;defer</span>
             </div>
-            <p class="stream-desc">Waiting for server to stream resolved markup into this slot.</p>
+            <p class="stream-desc">
+              Waiting for server to stream resolved markup into this slot.
+            </p>
             <div class="stream-timestamp-skeleton"></div>
           </article>
         }
@@ -226,10 +267,15 @@ import {
               <span>Declared 6th</span>
               <span>Resolved 3rd</span>
               <span>1500ms</span>
-              <span>@defer</span>
+              <span>&#64;defer</span>
             </div>
-            <p class="stream-desc">Authored as Angular markup and rendered to streamed HTML on the server.</p>
-            <p class="stream-timestamp"><strong>Resolved at</strong> {{ timestamp() }}</p>
+            <p class="stream-desc">
+              Authored as Angular markup and rendered to streamed HTML on the
+              server.
+            </p>
+            <p class="stream-timestamp">
+              <strong>Resolved at</strong> {{ timestamp() }}
+            </p>
           </article>
         } @placeholder {
           <article class="stream-card stream-card-angular stream-card-fallback">
@@ -241,9 +287,11 @@ import {
               <span>Declared 6th</span>
               <span>Expected 3rd</span>
               <span>Fallback</span>
-              <span>@defer</span>
+              <span>&#64;defer</span>
             </div>
-            <p class="stream-desc">Waiting for server to stream resolved markup into this slot.</p>
+            <p class="stream-desc">
+              Waiting for server to stream resolved markup into this slot.
+            </p>
             <div class="stream-timestamp-skeleton"></div>
           </article>
         }
@@ -252,7 +300,11 @@ import {
       <p class="footer">
         <img alt="" src="/assets/png/absolutejs-temp.png" />
         Powered by
-        <a href="https://absolutejs.com" rel="noopener noreferrer" target="_blank">
+        <a
+          href="https://absolutejs.com"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
           AbsoluteJS
         </a>
       </p>
