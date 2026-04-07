@@ -12,7 +12,7 @@ Out-of-order streaming lets slow async sections stream as soon as they resolve i
 - **Fallback while waiting** - Async chunks render with placeholders while work is still pending.
 - **Out-of-order delivery** - Streamed slots resolve independently and patch in by slot ID.
 - **Cross-framework routing** - One backend plugin drives React, Svelte, Vue, Angular, HTML, and HTMX routes.
-- **Shared structure/style** - The project layout matches the other `absolutejs-*` examples under `~/alex`.
+- **Shared example architecture** - The app follows the same multi-framework example pattern used across the other AbsoluteJS example repositories.
 
 ## Prerequisites
 
@@ -21,11 +21,18 @@ Out-of-order streaming lets slow async sections stream as soon as they resolve i
 ## Getting Started
 
 ```bash
+# Clone the repository
+git clone https://github.com/alexkahndev/absolutejs-out-of-order-streaming-example.git
+cd absolutejs-out-of-order-streaming-example
+
+# Install dependencies
 bun install
+
+# Start the dev server
 bun run dev
 ```
 
-The server prints the local URL, usually `http://localhost:3000`.
+The dev server will start and print the local URL (default `http://localhost:3000`).
 
 ## Scripts
 
@@ -37,25 +44,11 @@ The server prints the local URL, usually `http://localhost:3000`.
 | `bun run format`    | Format code with Prettier             |
 | `bun run typecheck` | Run type checking across all frameworks |
 
-## Project Structure
+## How It Works
 
-```
-src/
-├── backend/
-│   ├── assets/              # Static assets (icons, images, SVGs)
-│   ├── plugins/
-│   │   └── pagesPlugin.ts   # Route definitions for each page
-│   ├── server.ts            # Elysia server setup
-│   └── vueImporter.ts       # Vue SSR import helper
-└── frontend/
-    ├── angular/             # Angular streaming page
-    ├── html/                # Plain HTML reference page
-    ├── htmx/                # HTMX reference page
-    ├── react/               # React streaming page
-    ├── styles/              # Shared styles
-    ├── svelte/              # Svelte streaming page
-    └── vue/                 # Vue streaming page
-```
+Each streaming page renders fast shell content immediately, then defers slower sections into independently resolving stream slots. When a section finishes, AbsoluteJS patches that slot into the response without waiting for the rest of the page.
+
+This repository includes equivalent examples for React, Vue, Svelte, and Angular, plus plain HTML and HTMX reference routes for comparison.
 
 ## Routes
 
